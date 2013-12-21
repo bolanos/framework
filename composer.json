@@ -1,0 +1,27 @@
+{
+    "name": "bolanos/framework",
+    "license": "MIT",
+    "type": "project",
+    "description": "Bolanos Framework",
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require": {
+        "php": ">=5.4",
+        "fabpot/Goutte": "*",
+        "incenteev/composer-parameter-handler": "~2.0",
+        "doctrine/orm": "*",
+        "doctrine/doctrine-bundle": "*",
+        "symfony/dependency-injection": "*",
+        "symfony/http-kernel": "*",
+        "pimple/pimple": "*",
+        "php-console/php-console": "dev-master"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "stable",
+    "extra": {
+
+    }
+}

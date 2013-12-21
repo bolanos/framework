@@ -1,0 +1,11 @@
+/.idea/
+/.composer/
+/app/config.php
+/bin/
+/composer.lock
+/scripts/*.json
+/scripts/test*
+/vendor/
+/notes.txt
+/composer.phar
+/library
